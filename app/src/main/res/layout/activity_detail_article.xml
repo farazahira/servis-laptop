@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.afinal.xirpl3060724.servicelaptoponline.model.DetailArticle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/judultv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loading.."
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/katalogtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judultv"
+                android:layout_marginTop="15dp"
+                android:text="loading.."
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/sebabtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/katalogtv"
+                android:layout_marginTop="25dp"
+                android:text="Sebab"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/isisebabtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sebabtv"
+                android:layout_marginTop="10dp"
+                android:text="loading.." />
+
+            <TextView
+                android:id="@+id/solusitv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isisebabtv"
+                android:layout_marginTop="25dp"
+                android:text="Solusi"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/isisolusitv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/solusitv"
+                android:layout_marginTop="10dp"
+                android:text="loading.." />
+
+            <TextView
+                android:id="@+id/sumbertv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isisolusitv"
+                android:layout_marginTop="25dp"
+                android:text="loading.."
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/datetv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sumbertv"
+                android:layout_marginTop="25dp"
+                android:text="loading.."
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/suka"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/datetv"
+                android:layout_marginTop="25dp"
+                android:background="@color/colorCombine"
+                android:text="Artikel ini sangat membantu" />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

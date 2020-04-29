@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#265961</color>
+    <color name="colorHeader">#76A665</color>
+    <color name="colorHeaderDark">#5f7a54</color>
+    <color name="colorCombine">#FFDD5C</color>
+    <color name="colorlike">#448EF6</color>
+    <color name="colorTransparentWhite">#CCCCCC</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorTransparentWhite</item>
+        <item>@color/colorTransparentWhite</item>
+        <item>@color/colorTransparentWhite</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorWhite</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorWhite</item>
+    </array>
+</resources>

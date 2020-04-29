@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>mesagge_app</key>
+        <value>Tested APk</value>
+    </entry>
+    <entry>
+        <key>link_apk_release</key>
+        <value>http://null.com</value>
+    </entry>
+</defaultsMap>

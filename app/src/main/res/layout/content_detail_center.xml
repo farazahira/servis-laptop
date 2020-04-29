@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailCenter"
+    tools:showIn="@layout/activity_detail_center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_D_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:ellipsize="end"
+            android:padding="16dp"
+            android:text="loading..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_D_alamat"
+            android:background="@color/colorHeader"
+            android:text="Buka di Google Map"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/tv_D_jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_map"
+            android:ellipsize="end"
+            android:padding="16dp"
+            android:text="loading..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_D_kontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_D_jam"
+            android:ellipsize="end"
+            android:padding="16dp"
+            android:text="loading..."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_D_head_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_D_kontak"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:text="Deskripsi:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_D_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_D_head_deskripsi"
+            android:ellipsize="end"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:text="loading..."
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_like_cen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_D_deskripsi"
+            android:background="@color/colorCombine"
+            android:text="Like This Center" />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

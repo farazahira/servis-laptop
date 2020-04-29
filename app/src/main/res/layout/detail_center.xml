@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkom_mlg.afinal.xirpl3060724.servicelaptoponline.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a" />
+
+        <TextView
+            android:id="@+id/tv_judul"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginLeft="16dp"
+            android:text="Judul"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:text="Alamat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_alamat"
+            android:background="@color/colorHeader"
+            android:text="Buka di Google Map"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/tv_jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_map"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:text="Jam Buka"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_kontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_jam"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:text="Kontak"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_kontak"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:text="Deskripsi"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_plikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/btn_favorite"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Like"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </ScrollView>
+
+</RelativeLayout>

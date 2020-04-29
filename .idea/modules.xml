@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:\AndroidTest\ServiceLaptop\Final-XIRPL3-060724-ServiceLaptopOnline.iml" filepath="D:\AndroidTest\ServiceLaptop\Final-XIRPL3-060724-ServiceLaptopOnline.iml" />
+      <module fileurl="file://E:\SMKTELKOM\XI RPL 3\ppb\final_project\ServiceLaptopOnline\Final-XIRPL3-060724-ServiceLaptopOnline.iml" filepath="E:\SMKTELKOM\XI RPL 3\ppb\final_project\ServiceLaptopOnline\Final-XIRPL3-060724-ServiceLaptopOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceLaptop.iml" filepath="$PROJECT_DIR$/ServiceLaptop.iml" />
+      <module fileurl="file://E:\SMKTELKOM\XI RPL 3\ppb\final_project\ServiceLaptopOnline\ServiceLaptop.iml" filepath="E:\SMKTELKOM\XI RPL 3\ppb\final_project\ServiceLaptopOnline\ServiceLaptop.iml" />
+      <module fileurl="file://D:\AndroidTest\ServiceLaptop\ServiceLaptopOnline.iml" filepath="D:\AndroidTest\ServiceLaptop\ServiceLaptopOnline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

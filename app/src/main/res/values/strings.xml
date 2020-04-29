@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Service Laptop Online</string>
+    <string name="try_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ornare ligula. Lorem ipsum dolor sit
+        amet, consectetur adipiscing elit. Pellentesque dignissim tempor varius. Pellentesque tincidunt rutrum mi, eu suscipit
+        magna commodo ut. Etiam a dolor ut ipsum rhoncus consequat nec ut arcu. Vestibulum ac quam rutrum, finibus nisl ut,
+        bibendum eros. Duis interdum nunc risus, sit amet accumsan nibh viverra quis. Suspendisse euismod ultricies tincidunt.
+        Nullam mauris dolor, tempus sed justo a, tempor gravida diam. Nulla ac interdum tortor. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Fusce sed justo in risus vulputate blandit nec id massa. Proin convallis enim id imperdiet
+        rhoncus.
+
+        Sed in turpis eget magna interdum scelerisque a vitae quam. Praesent placerat nisl a eros malesuada, vel sagittis
+        libero hendrerit. Donec euismod nisi justo, eget egestas nisi hendrerit eu. Mauris ut nulla a urna convallis interdum.
+        Curabitur blandit felis vel molestie scelerisque. Integer quis interdum nisl. Aliquam ultrices nunc eget lectus mattis
+        eleifend. Phasellus scelerisque ipsum at elit fermentum ultrices. Fusce ut lobortis lectus. Nulla hendrerit quis odio
+        non aliquet. Aenean dictum bibendum augue, sit amet commodo ante viverra et. Duis feugiat, dui sit amet maximus faucibus,
+        lacus est consequat sem, id imperdiet libero lacus eget magna. In hac habitasse platea dictumst. Ut a turpis in nibh
+        fermentum rhoncus.
+    </string>
+    <string name="server_client_id">AIzaSyBGHmcs2n4aDb3XSwb5DFk0Pvf3akRxjqE</string>
+    <string name="dash">Dashboard</string>
+    <string name="facebook_application_id" translatable="false">1801146239928926</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_like">Like</string>
+
+
+    <!--userguid here-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">SELAMAT DATANG!</string>
+    <string name="slide_1_desc">Aplikasi ini akan membantu Anda dalam mencari tempat servis laptop favorit di kota Malang.</string>
+
+    <string name="slide_2_desc">Anda dapat melihat alamat dan jam buka tempat servis tersebut!</string>
+
+    <string name="slide_3_desc">Aplikasi ini juga menyediakan artikel yang berisi solusi terbaik untuk berbagai macam permasalahan pada laptop.</string>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.sch.smktelkom_mlg.afinal.xirpl3060724.servicelaptoponline.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="About Us"
+                android:textAlignment="center"
+            android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imgv_dilla"
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:layout_below="@+id/tv_about"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/dilla" />
+
+            <TextView
+                android:id="@+id/tvnama1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgv_dilla"
+                android:layout_marginTop="8dp"
+                android:text="Mufadilla Dwi Mulyasari"
+                android:textAlignment="center" />
+
+
+        <ImageView
+            android:id="@+id/imgv_fara"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/tvnama1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/fara" />
+
+            <TextView
+                android:id="@+id/tvnama2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgv_fara"
+                android:layout_marginTop="8dp"
+                android:text="Annisa Fairuz Zahira"
+                android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imgv_angger"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/tvnama2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/angger" />
+
+            <TextView
+                android:id="@+id/tvnama3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgv_angger"
+                android:layout_marginTop="8dp"
+                android:text="Angger Pratamadhita Wibawa"
+                android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_thanks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnama3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Big Thanks To"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_thanks"
+            android:layout_marginTop="8dp"
+            android:text="Allah SWT"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginTop="8dp"
+            android:text="Bapak Hendra W. P."
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="8dp"
+            android:text="TR3X Official"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="8dp"
+            android:text="SMK Telkom Malang"
+            android:textAlignment="center" />
+    </RelativeLayout>
+</ScrollView>

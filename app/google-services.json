@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "514365079948",
+    "firebase_url": "https://service-laptop.firebaseio.com",
+    "project_id": "service-laptop",
+    "storage_bucket": "service-laptop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514365079948:android:bdc3c13f4a3dcaa2",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.afinal.xirpl3060724.servicelaptoponline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514365079948-ik87f6hk63i6bejvjeno7o1slgtn8e5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ7Zv6RW8D782gV4roY1ySDHRb3Vz42eA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
